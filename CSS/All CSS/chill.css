@@ -11,4 +11,18 @@ div i {
 /*iv, .main, #tr, div b {
   color: #000;
 }*/
-  /*Урок #4 – Псевдоклассы и псевдоэлементы
+/*Урок #4 – Псевдоклассы и псевдоэлементы*/
+.cls {
+  color: #3902ff;
+  text-decoration: none;
+}
+/*Делаем так что при нажатии на ссылку она меняла цвет и подчёркивалась*/
+.cls:hover {
+  color: coral;
+  text-decoration: overline;
+  text-decoration-color: aqua;
+  cursor: pointer;
+}
+p pre {
+  color: #3902ff;
+}
