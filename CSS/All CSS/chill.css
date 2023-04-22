@@ -23,6 +23,56 @@ div i {
   text-decoration-color: aqua;
   cursor: pointer;
 }
-p pre {
-  color: #3902ff;
+.myroom:active {
+  text-decoration: line-through;
 }
+.visi:visited {
+  color: grey; /*Не сработал но суть понятна*/
+}
+input {
+  color: blue;
+}
+input:focus {
+  color: rgb(0, 0, 0);
+}
+p.text:not(:empty) {
+  /*and - p.text:empty */
+  color: rgb(20, 198, 61);
+}
+/*Псевдоэлементы*/
+#somebody::after {
+  content: "787";
+}
+.text::first-letter {
+  /*::first-line*/
+  color: blueviolet;
+}
+/*p:first-of-type {
+  text-decoration: line-through;
+}*/
+/*Урок #5 – Работа с фоновыми картинками*/
+body {
+  /* background-color: aqua;
+  color: blue;
+  background-image: url("Img/chachka_koffe.jpg");
+  background-repeat: no-repeat; */
+
+  /*Более простая запись этого длинного кода*/
+  color: black;
+  background: blueviolet url("Img/chachka_koffe.jpg") no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Просмотр работы background-attachment: fixed;*/
+/*#first{
+ color: black;
+  background: blueviolet url("Img/chachka_koffe.jpg") no-repeat center;
+  height: 1000px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#second {
+  height: 2000px;
+}*/
+ /*Урок #6 – Стили для текста
