@@ -169,9 +169,190 @@ body {
   padding-top: 100px;
   box-sizing: border-box;
   /*Экран 1750px в ширину*/
-}
-
-/* * {
+  display: block;
+  /* * {
   margin: 0;
   padding: 0;
 } */
+}
+
+/*Урок #8 – Позиционирование блоков*/
+#position {
+  background: red;
+  height: 200px;
+  width: 200px;
+  opacity: 0.5;
+  border-radius: 100px;
+  margin: 10px;
+  float: left;
+}
+
+#position2 {
+  background: blue;
+  height: 200px;
+  width: 200px;
+  opacity: 0.5;
+  border-radius: 100px;
+  margin: 10px;
+  float: left;
+}
+
+/* Создание мини-сайта */
+#header,
+#footer {
+  width: 100%;
+  /*На всякий случай*/
+  height: 100 px;
+  text-align: center;
+  border-bottom: 4px solid silver;
+  background: black;
+  color: aliceblue;
+  line-height: 100px;
+  margin-bottom: 50 px;
+  float: left;
+  /*Чтобы предыдущие блоки не накладывались на шапку сайта */
+  opacity: 0.9;
+}
+
+#footer {
+  margin-bottom: 0;
+  margin-top: 50px;
+  border-bottom: 0;
+  /* border - Эта обводка */
+  border-top: 4px solid gold;
+  float: left;
+}
+
+#mainwebsite {
+  width: 50%;
+  margin-left: 10%;
+  background: grey;
+  border: 1px solid silver;
+  padding: 20px 2.5%;
+  float: left;
+  margin-top: 50px;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+#aside {
+  width: 20%;
+  padding: 20px 2.5%;
+  /* margin-right: 10%; */
+  /* Прописываем на всякий случай */
+  background: grey;
+  border: 1px solid silver;
+  margin-top: 50px;
+  float: left;
+  opacity: 0.9;
+  /*Чтобы отображались объекты в одну линию нужно убрать border: 2px на 0px потому что выходим за рамки 100%*/
+  /* или просто удалить margin-right: 10%; */
+  border-radius: 15px;
+  margin-left: 5%;
+  position: relative;
+  left: 0px;
+}
+
+#some_block {
+  background: rgb(255, 0, 0);
+  opacity: 0.5;
+  color: rgb(255, 255, 255);
+  /*colour - цвет текста*/
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  left: 20px;
+  float: left;
+  /* position: absolute;  - то есть прописывая flout left блок всё равно будет наложен на другой*/
+  top: 50px;
+  position: absolute;
+  position: fixed;
+
+  /* position: fixed; - Зафиксировали объект теперь при прокрутке останеться на месте */
+}
+
+#buttontype {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px;
+  background: #ff9900;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  float: left;
+  top: 50px;
+  left: 40%;
+  position: fixed;
+  opacity: 0.7;
+}
+
+/* Урок #9 – Работа со списками */
+#nav {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+
+
+}
+
+#nav li {
+  /* Обращаемя к каждому элементу */
+  display: inline;
+  background: #fafafa;
+  border: 2px solid silver;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+#nav li:hover {
+  color: #fafafa;
+  background: black;
+  border-radius: 15px;
+  border-color: gold;
+}
+
+#nav li:not(:last-of-type) {
+  /* То бишь добавляем отступы кроме последнего элемента (:last-of-type) */
+  margin-right: 20px;
+}
+
+#icor {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 50px;
+  margin-left: 25%;
+  text-align: center;
+  margin-bottom: 50px;
+  position: fixed;
+  top: 50px;
+  margin-left: 50px;
+
+}
+
+#icor {
+  display: inline;
+  background: #fafafa;
+  border: 2px solid silver;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+#icor:hover {
+  color: #fafafa;
+  background: black;
+  border-radius: 15px;
+  border-color: gold;
+}
+
+.fr {
+  width: 100px;
+}
