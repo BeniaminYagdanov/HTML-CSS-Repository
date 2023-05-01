@@ -335,13 +335,15 @@ body {
   position: fixed;
   top: 50px;
   margin-left: 50px;
+  text-decoration: none;
 
 }
 
 #icor {
+  color: white;
   display: inline;
-  background: #fafafa;
-  border: 2px solid silver;
+  background: #000000;
+  border: 2px solid gold;
   padding: 0 20px;
   cursor: pointer;
 }
@@ -351,6 +353,9 @@ body {
   background: black;
   border-radius: 15px;
   border-color: gold;
+  text-decoration: underline;
+  text-decoration-color: #3902ff;
+
 }
 
 .fr {
