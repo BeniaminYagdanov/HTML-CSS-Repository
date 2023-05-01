@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Aftor" content="Boni">
+    <title>Forexample my practice</title>
+    <link rel="stylesheet" href="Forexample.css"> <!-- Подключение CSS только в head -->
+</head>
+
+<body>
+    <a href="#Опуститься вниз" id="Yakor">Вниз к разделу</a>
+    <h1>h1</h1>
+    <p>Абзац 100% ширина отступы сверху и снизу</p>
+    <b>Жирный текст</b><br>
+    <strong>Аналогичный b</strong> <br>
+    <em>текст курсивом</em><br>
+    <i>тот же em</i> <br>
+    <sub>Выше 1 основного ряда</sub> <br>
+    <sup>Ниже 2 основного ряда</sup>
+    <br>br не создаёт доп. отступов можно использовать чтобы перенести текст на новую строку
+    <hr>
+    <abbr title="my abriviature">ДГУ</abbr>
+    <div title="вот работа тега title">
+        <h2>title</h2>
+    </div>
+    <address>Ул. Курсивная, дом 32-34</address> <br>
+    <small>big text, small text </small>
+    <pre>Text С
+       отображением отступов
+</pre>
+    <code>System.out.println hello word - здесь код</code>
+    <!-- Списки -->
+    <ol>
+        <li start="2">Список стартует со второго элемента</li>
+        <li>Пронумерованный</li>
+        <li>Список</li>
+    </ol>
+    <ul>
+        <li>Белые кружочки</li>
+        <li>Непронумерованный</li>
+        <li>Список</li>
+    </ul>
+    <!-- Картинки -->
+    <a href="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Everest.jpg"
+        target="_blank" id="Imgtest">Ссылка из инета </a> <br>
+    <a href="img/noutbuk_kniga_estetika_214147_3840x2400.jpg">Ссылка из компьютера</a>
+    <!-- якорь -->
+    <a name="Опуститься вниз"></a><br>
+    <a href="mailto:beniamin240207@gmail.com">My email</a><br>
+    <img style="width: 300px;"
+        src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Everest.jpg"
+        alt="404 Not found">
+
+    <img class="img" src="img/noutbuk_kod_programmirovanie_212332_1280x720.jpg" alt="Sorry not found 404"
+        title="Это шедевр современного искусства программирования" style="width: 300px;">
+    <!-- Таблицы -->
+    <table border="5" width="500px">
+        <thead>
+            <tr>
+                <th>тег tfoot работает как тег tbody</th>
+                <th>Заголовок текста</th>
+            </tr>
+        <tfoot>
+
+            <tbody align="center">
+                <tr>
+                    <td>Обычный текст</td>
+                    <td>И заполнение второго заглавия</td>
+                </tr>
+                <tr>
+                    <td>Сводка стеков в разных компаниях</td>
+                    <td>сюда можно добавить дофига стилей с помощью CSS</td>
+                </tr>
+                <tr>
+                    <td>Text</td>
+                    <td>Eria</td>
+                </tr>
+            </tbody>
+        </tfoot>
+        </thead>
+    </table>
+    <!-- Теги для подключения файлов -->
+    <!-- <link rel="stylesheet" href="Forexample.css"> Только прописываем это в теге head -->
+
+    <!-- Теги Div and Span -->
+    <form action=""> <!--   вот почему кнопка не работала надо было просто прописать action -->
+        <div><button type="submit">results</button></div>
+    </form>
+    <!-- <div>Блок для добавления стилей</div> -->
+    <!-- <span>Строка для добавления стилей</span> -->
+
+    <!-- Создание HTML form  -->
+    <form action="" method="post"><br>
+        <label for="Borya">Надпись</label>
+        <input type="text" placeholder="Введите свою почту" id="Borya"><br>
+        <input type="text" value="Текст заранее" placeholder="info" maxlength="30" class="input">
+        <input type="text" hidden class="input">
+        <input type="text" placeholder="text" class="input">
+        <input type="text" readonly placeholder="считываем данные" class="input">
+        <!-- p>input[type="text" placeholder="Введите свою почту" maxlengt="30"] пример-->
+        <input type="text" name="grid" placeholder="Для работы с JS" class="input">
+        <!-- Форматы input полей -->
+        <p><input type="password" placeholder="password" id="inputpolya"><br>
+            <input type="url" placeholder="url" id="inputpolya"><br>
+            <input type="email" placehorder="Ввести email" id="inputpolya"><br>
+            <input type="color" id="inputpolya"><br>
+            <input type="date" id="inputpolya"><br>
+            <input type="datetime" id="inputpolya"><br>
+            <input type="checkbox" id="galochka"><br>
+            <input type="radio" name="state">
+            <input type="radio" name="state">
+            <input type="radio" name="state"><br> <!-- Такую штуку можно добавить например в формачки -->
+            <input type="file" id="filedowland"><br>
+            <!-- кнопки -->
+            <input type="submit" id="buttom"><br>
+        <form action=""><textarea name="" id="textarea" cols="30" rows="10"></textarea></form>
+        <form action="">
+            <select name="" id="spisok" multiple="multiple" size="3">
+                <option>BMW1</option>
+                <option>BMW2</option>
+                <option>BMW3</option>
+                <option>BMW4</option>
+                <option>BMW5</option>
+                <option>BMW6</option>
+            </select>
+        </form>
+        <div>
+            <details id="details">Text</details>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        </p>
+
+
+
+
+
+
+        <!-- Emmit -->
+        <!-- html>head>titlle{Simele html text} -->
+        <!-- div>span>b>em -->
+        <!-- div>span>b^^em> -->
+        <!-- html>head>title{Simle}^body>h3{THem}+#blick$*4>h3{subket$}+div>lorem20 + Чтобы не был вложен -->
+        <!-- div.content -->
+        <!-- div#dev -->
+        <!-- .repa*4 -->
+        <!-- #blocker$*5 -->
+        <!-- alt+z - Группировка текста -->
+        <!-- div.item>lorem3*a[href="#"]*5 -->
+
+
+
+
+
+
+
+
+
+
+        <script src="Forexample.js"></script>
+</body>
+
+</html>

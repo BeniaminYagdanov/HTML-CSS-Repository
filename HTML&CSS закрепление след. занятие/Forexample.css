@@ -1,0 +1,107 @@
+/* Потом добавить стили для ссылок и прочего тем, самым запрактиковать стили */
+body {
+    margin: 0;
+    padding: 0;
+    background: url("img/noutbuk_kniga_estetika_214147_3840x2400.jpg") no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /*Сделать задний фон пересмотреть как это делается*/
+    /*и посмотреть как связать стили может из-за этого не отображается картинка*/
+}
+
+/* m40 = margin: 40px; */
+/* mt40=margin-top: 40px; */
+/* ml40=margin-left: 40px; */
+/* mr40=margin-right: 40px; */
+/* По умолчанию в px  */
+/* pos=position: relative; */
+/* t0=top: 0; */
+/* dib=display: inline-block; */
+/* p5px10 =padding: 5px 10px;- 5 вверх низ 10 по бокам */
+/* bd = border: 1px solid #000; } </style> */
+
+/* Стили */
+
+#Yakor:hover {
+    text-decoration-color: yellow;
+    color: gold;
+    cursor: pointer;
+    text-decoration: none;
+    /* Работа с текстом */
+    /* text-align: center; */
+    /* font-size: 14px; размер шрифта */
+    /* font-style: italic; текст наклонным  */
+    /* font-weight: 300; */
+    /* font-family: 'Inconsolata', monospace; */
+    /* @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap'); вставить в верх */
+    /* text-transform: uppercase; */
+    /* word-spacing: 20px; */
+    /* letter-spacing: 2px; */
+    /* line-height: 20px; */
+
+    /* стили для блоков) */
+    /* border: 1px solid #000; */
+    /* border-style: dotted; смена стиля обводки */
+    /* border-width: 2px; смена ширины */
+    /* border-radius: 25% 25%; */
+    /* opacity: 0.9; */
+    /* text-align: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin: 50px; по всем сторонам 50px */
+    /* margin-top: 50px; */
+    /* padding-left: 40px; */
+    /* box-sizing: border-box;чтобы при padding блок не увеличивался */
+    /* display: block; если строчный элимент  inline - строка*/
+    /* float: left; */
+    /* line-height: 100px; */
+    /* height: 100px; - текст по центру */
+
+
+    /* padding - ты даёшь ширину высоту кнопки */
+
+
+
+
+}
+
+#Imgtest:active {
+    text-decoration: solid;
+    color: gold;
+}
+
+
+img {
+    opacity: 0.9;
+    float: left;
+}
+
+.input {
+    margin-left: 100px;
+    text-align: center;
+
+
+
+}
+
+#inputpolya {
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+#galochka {
+    width: 10px;
+    height: 10px;
+}
+
+#filedowland {}
+
+#buttom {}
+
+#textarea {}
+
+#spisok {}
+
+#details {}
