@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 /* Потом добавить стили для ссылок и прочего тем, самым запрактиковать стили */
 body {
     margin: 0;
@@ -24,11 +26,35 @@ body {
 
 /* Стили */
 
-#Yakor:hover {
-    text-decoration-color: yellow;
-    color: gold;
+#Yakor {
+    background: wheat;
+    text-decoration-line: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     text-decoration: none;
+    float: right;
+    margin-right: 50px;
+    border-radius: 25px 25px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 1px solid pink;
+
+}
+
+#Yakor:hover {
+    background: wheat;
+    color: rgb(45, 43, 43);
+    cursor: pointer;
+    float: right;
+    margin-right: 50px;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    border-radius: 50px 50px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 3px solid plum;
+
+
     /* Работа с текстом */
     /* text-align: center; */
     /* font-size: 14px; размер шрифта */
@@ -58,32 +84,127 @@ body {
     /* float: left; */
     /* line-height: 100px; */
     /* height: 100px; - текст по центру */
-
-
+    /* position: relative; */
     /* padding - ты даёшь ширину высоту кнопки */
-
-
-
-
 }
 
-#Imgtest:active {
-    text-decoration: solid;
-    color: gold;
-}
-
-
-img {
-    opacity: 0.9;
+#Imgtest {
+    background: orange;
+    color: black;
+    border: 1px solid yellow;
+    border-radius: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    position: relative;
     float: left;
+    margin-left: 490px;
+    margin-right: 30px;
+}
+
+#Imgtest:hover {
+    background: orange;
+    color: rgb(0, 0, 0);
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 20px 20px;
+    position: relative;
+    text-decoration: underline;
+    margin-right: 30px;
+}
+
+#comp {
+    background: orange;
+    color: black;
+    border: 1px solid yellow;
+    border-radius: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    position: relative;
+    top: -18px;
+    margin-left: 5px;
+    float: left;
+    margin-right: 30px;
+}
+
+#comp:hover {
+    background: orange;
+    color: rgb(0, 0, 0);
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 20px 20px;
+    position: relative;
+    text-decoration: underline;
+    margin-right: 30px;
+}
+
+#email {
+    background: orange;
+    color: black;
+    border: 1px solid yellow;
+    border-radius: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    position: relative;
+    top: -37px;
+    margin-left: 5px;
+    float: left;
+}
+
+#email:hover {
+    background: orange;
+    color: rgb(0, 0, 0);
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 20px 20px;
+    position: relative;
+    text-decoration: underline;
+}
+
+.img {
+
+    opacity: 0.9;
+    /* display: block; */
+    float: left;
+    margin-left: 25px;
+    border: 1px solid black;
+    border-radius: 50px 50px;
+    margin-right: 50px;
+    position: relative;
+    right: 385px;
+}
+
+#table {
+    position: relative;
+    bottom: 150px;
+    border: 5px solid yellow;
 }
 
 .input {
     margin-left: 100px;
     text-align: center;
+}
 
-
-
+#button {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    background: blue;
+    margin-left: 42%;
+    border: 5px solid rgb(0, 0, 0);
+    color: rgb(2, 234, 255);
+    padding: 10px 50px;
+    border-radius: 10px 100px 10px 100px;
+    position: fixed;
+    opacity: 0.8;
+    /* position: relative; */
+    top: 700px
+        /* поработать с текстом */
 }
 
 #inputpolya {
@@ -105,3 +226,5 @@ img {
 #spisok {}
 
 #details {}
+
+/* после прописания стилей практика адаптивная вёрстка ссылка на 1 проект находится в Roadmap (тот который мой)  */
