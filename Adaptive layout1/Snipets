@@ -1,0 +1,4 @@
+/* mm - margin: 0px 0px 0px 0px; */
+/* med - @media (max-width: px) {} */
+/* null - обнуление */
+/* $1 - переход курсора tab */
