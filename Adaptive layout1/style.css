@@ -78,7 +78,7 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
-	z-index: 100;
+	z-index: 10;
 }
 
 .header__container {
@@ -160,6 +160,8 @@ body {
 
 .page__main-block {}
 
+.page__services {}
+
 /*---------------Footer--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .footer {}
@@ -189,6 +191,12 @@ body {
 	}
 }
 
+@media (max-width:479px) {
+	.main-block__body {
+		padding: 115px 0px 160px 0px;
+	}
+}
+
 .main-block__body>*:not(:last-child) {
 	margin: 0px 0px 35px 0px;
 	/* думать о том что будет дальше с вашей вёрсткой это важно */
@@ -215,8 +223,17 @@ body {
 	font-weight: 500;
 }
 
+@media (max-width:479px) {
+	.main-block__text {
+		color: #585757;
+	}
+}
+
 .main-block__buttons {
-	display: inline-flex;
+	display: flex;
+	flex-wrap: wrap;
+	margin: -10px 0px;
+
 }
 
 .main-block__button {
@@ -227,16 +244,23 @@ body {
 	justify-content: center;
 	align-items: center;
 	letter-spacing: 0.2px;
-
 	text-align: center;
 	font-weight: 700;
 	line-height: calc(28 / 14 * 100%);
 	padding: 5px 36px;
-
+	margin: 10px 0px;
 }
 
-.main-block__button:not(:last-child) {
-	margin: 0px 10px 0px 0px;
+@media (max-width:479px) {
+	.main-block__button {
+		flex: 1 1 100%;
+	}
+}
+
+@media (min-width: 479px) {
+	.main-block__button:not(:last-child) {
+		margin-right: 10px;
+	}
 }
 
 .main-block__button_orange {
@@ -260,7 +284,7 @@ body {
 	left: 0;
 }
 
-/* لنتختفيالصورةفيالشاشةالصغيرة (الناس будут зафиксированны благодаря этому свойству) */
+/*будут зафиксированны благодаря этому свойству) */
 @media (max-width: 1400px) {
 	.main-block__image img {
 		object-position: right;
@@ -270,7 +294,7 @@ body {
 /* при 992 px прозрачность будет 0.5 чтобы читался текст */
 @media (max-width: 992px) {
 	.main-block__image {
-		opacity: 0.5;
+		opacity: 0.6;
 	}
 }
 
@@ -279,4 +303,101 @@ body {
 object-position: top;
 /*Если нужно прибить картинку к какому-то краю
 }*/
-@media (max-width: px) {}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+.page__services {
+	position: relative;
+	z-index: 110;
+	margin: -111px 0px 0px 0px;
+	/*А теперь раскрытие почему же margin, а не например position - всё просто только при отриц. margin поднимутся все остальные блоки снизу*/
+}
+
+.services {}
+
+.services__container {}
+
+.services__body {}
+
+@media (min-width: 670px) {
+	.services__body {
+		/* flex-wrap: wrap;*/
+		margin: 0px -15px;
+		display: flex;
+	}
+}
+
+
+.services__column {
+	flex: 0 1 33.333%;
+}
+
+
+
+@media (min-width: 670px) {
+	.services__column {
+		padding: 0px 15px;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.services__column {
+		flex: 0 1 50%;
+	}
+
+	.services__column:not(:last-child) {
+		margin: 0px 0px 30px 0px;
+	}
+
+	.services__column:last-child {
+		flex: 1 1 100%;
+	}
+}
+
+.services__item {
+
+	height: 100%;
+	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+	background-color: #fff;
+	padding: 35px;
+}
+
+@media (max-width:479px) {
+	.services__item {
+		padding: 25px;
+	}
+}
+
+.item-service {}
+
+.item-service_green {
+	background-color: #0D5C63;
+}
+
+.item-service_green .item-service__title {
+	color: #fff;
+}
+
+.item-service_green .item-service__text {
+	color: #fff;
+}
+
+.item-service>* :not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+
+.item-service__icon {}
+
+.item-service__title {
+	font-weight: 700;
+	letter-spacing: 0.1px;
+	font-size: 24px;
+	line-height: calc(32 / 24 * 100%);
+
+}
+
+.item-service__text {
+	color: #737373;
+	line-height: calc(20 / 14 * 100%);
+
+}
