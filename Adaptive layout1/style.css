@@ -35,6 +35,7 @@ html,
 body {
 	height: 100%;
 	line-height: 1;
+	background: #FAFAFA;
 	font-size: 14px;
 	color: #252B42;
 	font-weight: 500;
@@ -161,6 +162,35 @@ body {
 .page__main-block {}
 
 .page__services {}
+
+.page__advantages {}
+
+/*-----------------Header-block------------------------------------------------------------------------------------------------------------------------*/
+.header-block {
+	text-align: center;
+	letter-spacing: 0.2px;
+
+}
+
+.header-block__title {
+	line-height: calc(20 / 14 * 100%);
+	font-weight: 700;
+	font-size: 40px;
+
+}
+
+.header-block__title:not(last-child) {
+	margin: 0px 0px 10px 0px;
+
+}
+
+.header-block__sub-title {
+	color: #737373;
+	line-height: calc(20 / 14 * 100%);
+
+
+
+}
 
 /*---------------Footer--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -320,7 +350,7 @@ object-position: top;
 
 @media (min-width: 670px) {
 	.services__body {
-		/* flex-wrap: wrap;*/
+		/* flex-wrap: wrap; */
 		margin: 0px -15px;
 		display: flex;
 	}
@@ -399,5 +429,60 @@ object-position: top;
 .item-service__text {
 	color: #737373;
 	line-height: calc(20 / 14 * 100%);
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+.advantages {
+	padding: 160px;
+}
+
+/*верхний отступ*/
+
+.advantages__container {}
+
+.advantages__header {
+	margin: 0px 0px 50px 0px;
+
+}
+
+.advantages__body {
+	display: flex;
+	margin: 0px -15px;
+
+}
+
+.advantages__column {
+	padding: 0px 15px;
+	flex: 0 1 25%;
+}
+
+.advantages__item {
+	padding: 30px 40px;
+	text-align: center;
+	font-weight: 700;
+	background-color: #fff;
+}
+
+/* отступ в 10 px для 4 блоков - */
+.advantages__item>* :not(:last-child) {
+	margin: 0px 0px 10px 0px;
+
+}
+
+.advantages__icon {}
+
+.advantages__value {
+	font-size: 40px;
+	line-height: calc(57 / 42 * 100%);
+
+}
+
+.advantages__text {
+	color: #737373;
+	font-size: 16px;
+	line-height: calc(24 / 16 * 100%);
+	letter-spacing: 0.1px;
 
 }
