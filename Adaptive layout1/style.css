@@ -188,8 +188,24 @@ body {
 	color: #737373;
 	line-height: calc(20 / 14 * 100%);
 
+}
 
+@media (max-width:992px) {
+	.header-block__sub-title {
+		font-size: 35px;
+	}
+}
 
+@media (max-width:426px) {
+	.header-block__sub-title {
+		font-size: 18px;
+	}
+}
+
+@media (min-width:1024px) {
+	.header-block__sub-title {
+		font-size: 18px;
+	}
 }
 
 /*---------------Footer--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -348,14 +364,15 @@ object-position: top;
 
 .services__body {}
 
-@media (min-width: 670px) {
+@media (min-width: 880px) {
 	.services__body {
 		/* flex-wrap: wrap; */
-		margin: 0px -15px;
 		display: flex;
+
+
+
 	}
 }
-
 
 .services__column {
 	flex: 0 1 33.333%;
@@ -363,16 +380,19 @@ object-position: top;
 
 
 
-@media (min-width: 670px) {
+@media (min-width: 880px) {
 	.services__column {
-		padding: 0px 15px;
+		padding: 15px;
+
 	}
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 879px) {
 	.services__column {
 		flex: 0 1 50%;
+
+
 	}
 
 	.services__column:not(:last-child) {
@@ -428,7 +448,7 @@ object-position: top;
 
 .item-service__text {
 	color: #737373;
-	line-height: calc(20 / 14 * 100%);
+	line-height: 142%;
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
@@ -436,6 +456,18 @@ object-position: top;
 
 .advantages {
 	padding: 160px;
+}
+
+@media (max-width:992px) {
+	.advantages {
+		padding: 90px 0px;
+	}
+}
+
+@media (max-width:767px) {
+	.advantages {
+		padding: 60px 0px;
+	}
 }
 
 /*верхний отступ*/
@@ -447,22 +479,61 @@ object-position: top;
 
 }
 
+@media (max-width:767px) {
+	.advantages__header {
+		margin: 0px 0px 25px 0px;
+
+	}
+}
+
 .advantages__body {
 	display: flex;
-	margin: 0px -15px;
+	flex-wrap: wrap;
+	margin: 0px -15px -30px;
 
 }
 
 .advantages__column {
-	padding: 0px 15px;
+	padding: 0px 0px;
+	margin: 0px 0px 30px 0px;
 	flex: 0 1 25%;
+
+	/*margin: 0 auto; с этим тоже поиграться */
 }
 
+@media (max-width:1235px) {
+	.advantages__column {
+		flex: 0 1 50%;
+
+
+	}
+}
+
+@media (max-width:558px) {
+	.advantages__column {
+		flex: 25%;
+		flex-wrap: wrap;
+		padding: 0px 80px 0px 0px;
+		position: relative;
+		left: 8%;
+	}
+
+	.advantages__text {
+		font-size: 24px;
+		text-align: center;
+	}
+}
+
+
 .advantages__item {
-	padding: 30px 40px;
-	text-align: center;
-	font-weight: 700;
 	background-color: #fff;
+	padding: 30px 40px;
+	font-weight: 700;
+	text-align: center;
+	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+
+
+
 }
 
 /* отступ в 10 px для 4 блоков - */
@@ -471,18 +542,27 @@ object-position: top;
 
 }
 
-.advantages__icon {}
+.advantages__icon {
+	/* как фиксить разную высоту картинки см. ниже */
+	height: 48px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+}
 
 .advantages__value {
 	font-size: 40px;
-	line-height: calc(57 / 42 * 100%);
+	line-height: 135%;
 
 }
 
 .advantages__text {
-	color: #737373;
-	font-size: 16px;
-	line-height: calc(24 / 16 * 100%);
 	letter-spacing: 0.1px;
+	color: #737373;
+	font-size: 15 px;
+	line-height: 150%;
 
 }
+
+/* при 370 пикселях поставить побольше левый отступ через pos rel  и все могу идти дальше */
