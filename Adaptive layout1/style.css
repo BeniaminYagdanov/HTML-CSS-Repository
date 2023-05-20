@@ -40,7 +40,6 @@ body {
 	color: #252B42;
 	font-weight: 500;
 	font-family: Montserrat;
-
 }
 
 .wrapper {
@@ -69,8 +68,6 @@ body {
 	top: 0;
 	left: 0;
 	object-fit: cover;
-
-
 }
 
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -161,38 +158,41 @@ body {
 
 .page__main-block {}
 
-.page__services {}
+.page__services {
+	position: relative;
+	z-index: 2;
+	margin: -111px 0px 0px 0px;
+
+}
 
 .page__advantages {}
+
+.page__practice {}
 
 /*-----------------Header-block------------------------------------------------------------------------------------------------------------------------*/
 .header-block {
 	text-align: center;
 	letter-spacing: 0.2px;
-
 }
 
 .header-block__title {
 	line-height: calc(20 / 14 * 100%);
 	font-weight: 700;
 	font-size: 40px;
-
 }
 
 .header-block__title:not(last-child) {
 	margin: 0px 0px 10px 0px;
-
 }
 
 .header-block__sub-title {
 	color: #737373;
-	line-height: calc(20 / 14 * 100%);
-
+	line-height: 142%;
 }
 
 @media (max-width:992px) {
 	.header-block__sub-title {
-		font-size: 35px;
+		font-size: 14px;
 	}
 }
 
@@ -279,7 +279,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	margin: -10px 0px;
-
 }
 
 .main-block__button {
@@ -368,9 +367,6 @@ object-position: top;
 	.services__body {
 		/* flex-wrap: wrap; */
 		display: flex;
-
-
-
 	}
 }
 
@@ -383,7 +379,6 @@ object-position: top;
 @media (min-width: 880px) {
 	.services__column {
 		padding: 15px;
-
 	}
 }
 
@@ -391,8 +386,6 @@ object-position: top;
 @media (max-width: 879px) {
 	.services__column {
 		flex: 0 1 50%;
-
-
 	}
 
 	.services__column:not(:last-child) {
@@ -443,7 +436,6 @@ object-position: top;
 	letter-spacing: 0.1px;
 	font-size: 24px;
 	line-height: calc(32 / 24 * 100%);
-
 }
 
 .item-service__text {
@@ -471,18 +463,15 @@ object-position: top;
 }
 
 /*верхний отступ*/
-
 .advantages__container {}
 
 .advantages__header {
 	margin: 0px 0px 50px 0px;
-
 }
 
 @media (max-width:767px) {
 	.advantages__header {
 		margin: 0px 0px 25px 0px;
-
 	}
 }
 
@@ -490,22 +479,18 @@ object-position: top;
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0px -15px -30px;
-
 }
 
 .advantages__column {
 	padding: 0px 0px;
 	margin: 0px 0px 30px 0px;
 	flex: 0 1 25%;
-
 	/*margin: 0 auto; с этим тоже поиграться */
 }
 
 @media (max-width:1235px) {
 	.advantages__column {
 		flex: 0 1 50%;
-
-
 	}
 }
 
@@ -524,15 +509,12 @@ object-position: top;
 	}
 }
 
-
 .advantages__item {
 	background-color: #fff;
 	padding: 30px 40px;
 	font-weight: 700;
 	text-align: center;
 	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-
-
 
 }
 
@@ -565,4 +547,83 @@ object-position: top;
 
 }
 
-/* при 370 пикселях поставить побольше левый отступ через pos rel  и все могу идти дальше */
+/*----practice------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.practice {
+	margin: 125px 0px 80px 0px;
+
+}
+
+.practice__container {}
+
+.practice__header {
+	margin: 0px 0px 45px 0px;
+
+}
+
+.practice__body {
+	margin: 0px -20px;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.practice__column {
+	padding: 0px 20px;
+	/* flex: 0 1 25%; */
+}
+
+.practice__item {}
+
+.item-practice {
+	background-color: #fff;
+	/*4 картинки по размеру вот как */
+	display: flex;
+	/*4 картинки по размеру вот как */
+	height: 100%;
+	/*4 картинки по размеру вот как */
+	flex-direction: column;
+
+
+}
+
+.item-practice__content {
+	padding: 30px;
+	/*4 картинки по размеру вот как */
+	flex: 1 1 auto;
+}
+
+.item-practice__link {
+	color: inherit;
+	display: inline-block;
+}
+
+.item-practice__link:hover {
+	text-decoration: underline;
+}
+
+.item-practice__link:not(:last-child) {
+	margin: 0px 0px 15px 0px;
+
+}
+
+.item-practice__title {
+	letter-spacing: 0.1px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+.item-practice__text {
+	color: #737373;
+	line-height: 142%;
+	font-size: 14px;
+}
+
+.item-practice__image {
+	display: block;
+	margin: 0px 0px 60% 0px;
+
+}
