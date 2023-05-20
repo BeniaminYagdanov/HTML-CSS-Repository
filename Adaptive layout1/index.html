@@ -2,68 +2,263 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
-        rel="stylesheet" />
-    <!-- &display=swap&subject=cyrillic-ext если бы текст был бы на русском -->
-    <link rel="stylesheet" href="style.css">
-    <title>Relvise</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
+		rel="stylesheet" />
+	<!-- &display=swap&subject=cyrillic-ext если бы текст был бы на русском -->
+	<link rel="stylesheet" href="style.css">
+	<title>Relvise</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="header__container _container">
-                <a href="" class="header__logo">
-                    Relvise
-                </a>
-                <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Home</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Product</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Pricing</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main class="page">
-            <div class="page__main-block main-block">
-                <div class="main-block__container _container">
-                    <div class="main-block__body">
-                        <h1 class="main-block__title">Finance and Consultancy Solution</h1>
-                        <div class="main-block__text">
-                            We know how large objects will act,
-                            but things on a small scale.
-                        </div>
-                        <div class="main-block__buttons">
-                            <a href="" class="main-block__button">Get Quote Now</a>
-                            <a href="" class="main-block__button main-block__button_border">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer class="footer">
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<a href="" class="header__logo">
+					Relvise
+				</a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="" class="menu__link">Home</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Product</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Pricing</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__main-block main-block">
+				<div class="main-block__container _container">
+					<div class="main-block__body">
+						<h1 class="main-block__title">Finance and Consultancy Solution</h1>
+						<div class="main-block__text">
+							We know how large objects will act,
+							but things on a small scale.
+						</div>
+						<div class="main-block__buttons">
+							<a href="" class="main-block__button main-block__button_orange">Get Quote Now</a>
+							<a href="" class="main-block__button main-block__button_border">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="main-block__image _ibg">
+					<img src="Img/mainblock/background.jpg" alt="background">
+				</div>
+			</div>
+			<section class="page__services services">
+				<div class="services__container _container">
+					<div class="services__body">
+						<div class="services__column">
+							<div class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="Img/services/1.svg" alt="Environmental Consulting">
+								</div>
+								<h3 class="item-service__title"> Environmental Consulting</h3>
+								<div class="item-service__text">We focus on ergonomics and meeting you where you work.</div>
+								<!-- Чтобы потом не переделывать много я пойду и сверстаю 1 картинку -->
+							</div>
+						</div>
+						<div class="services__column">
+							<div class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="Img/services/2.svg" alt="Environmental Consulting">
+								</div>
+								<h3 class="item-service__title">Finance and consultancy</h3>
+								<div class="item-service__text">Just type what's on your mind and we'll get you there.</div>
+							</div>
+						</div>
+						<div class="services__column">
+							<div class="services__item item-service item-service_green">
+								<div class="item-service__icon">
+									<img src="Img/services/3.svg" alt="Environmental Consulting">
+								</div>
+								<h3 class="item-service__title">Financial Services Consulting</h3>
+								<div class="item-service__text">the quick fox jumps over the lazy dog</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__advantages advantages">
+				<div class="advantages__container _container">
+					<div class="advantages__header header-block">
+						<h2 class="header-block__title">Designing Better Experience</h2>
+						<div class="header-block__sub-title">
+							Problems trying to resolve the conflict between the two major realms <br> of Classical physics:
+							Newtonian mechanics
+						</div>
+					</div>
+					<div class="advantages__body">
+						<div class="advantages__column">
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<img src="Img/advantages/4.svg" alt="Consumer Products">
+								</div>
+								<div class="advantages__value">972 +</div>
+								<div class="advantages__text">Consumer Products</div>
+							</div>
+						</div>
+						<div class="advantages__column">
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<img src="Img/advantages/5.svg" alt="Financial Services">
+								</div>
+								<div class="advantages__value">181 +</div>
+								<div class="advantages__text">Financial Services</div>
+							</div>
+						</div>
+						<div class="advantages__column">
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<img src="Img/advantages/6.svg" alt="Environmental">
+								</div>
+								<div class="advantages__value">98%</div>
+								<div class="advantages__text">Environmental</div>
+							</div>
+						</div>
+						<div class="advantages__column">
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<img src="Img/advantages/7.svg" alt="Business & Finance">
+								</div>
+								<div class="advantages__value">746 +</div>
+								<div class="advantages__text">Business & Finance</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+	</section>
 
-        </footer>
-    </div>
-    <!--нужен для горизонтального скрола 13:00 -->
-    <script src="Adaptive layout1/style.js"></script>
+	<section class="page__practice practice">
+		<div class="practice__container _container">
+
+			<div class="practice__header header-block">
+				<h2 class="header-block__title">Practice Advice</h2>
+				<div class="header-block__sub-title">
+					Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian
+					mechanics
+				</div>
+			</div>
+			<div class="practice__body">
+				<div class="practice__column">
+					<article class="practice__item item-practice">
+						<div class="item-practice__content">
+							<a href="" class="item-practice__link">
+								<h4 class="item-practice__title">A single source <br> of truth</h4>
+							</a>
+							<div class="item-practice__text">
+								Newton thought that <br> light was made up of <br> particles, but then it <br> was discovered
+							</div>
+						</div>
+						<a href="" class="item-practice__image">
+							<img src="Img/practice/1.jpg" alt="A single source of truth">
+						</a>
+					</article>
+				</div>
+				<div class="practice__column">
+					<article class="practice__item item-practice">
+						<div class="item-practice__content">
+							<a href="" class="item-practice__link">
+								<h4 class="item-practice__title">Fastest way to <br> organize</h4>
+							</a>
+							<div class="item-practice__text">
+								“Quantum mechanics” <br> is the description of the <br> behaviour of matter
+							</div>
+						</div>
+						<a href="" class="item-practice__image">
+							<img src="Img/practice/2.jpg" alt="Fastest way to organize">
+						</a>
+					</article>
+				</div>
+				<div class="practice__column">
+					<article class="practice__item item-practice">
+						<div class="item-practice__content">
+							<a href="" class="item-practice__link">
+								<h4 class="item-practice__title">Fastest way to <br> take action</h4>
+							</a>
+							<div class="item-practice__text">
+								They describe a <br> universe consisting of <br> bodies moving
+							</div>
+						</div>
+						<a href="" class="item-practice__image">
+							<img src="Img/practice/3.jpg" alt="Fastest way to take action">
+						</a>
+					</article>
+				</div>
+				<div class="practice__column">
+					<article class="practice__item item-practice">
+						<div class="item-practice__content">
+							<a href="" class="item-practice__link">
+								<h4 class="item-practice__title">Work better <br> together</h4>
+							</a>
+							<div class="item-practice__text">
+								They finally obtained <br> a consistent description <br> of the behaviour
+							</div>
+						</div>
+						<a href="" class="item-practice__image">
+							<img src="Img/practice/4.jpg" alt="Work better together">
+						</a>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+	</main>
+	<footer class="footer">я подвал</footer>
+
+
+	</div>
+	<!--нужен для горизонтального скрола 13:00 -->
+	<script src="Adaptive layout1/style.js"></script>
 </body>
+
+
+
+<!-- ! важно -->
+<!-- TODO -->
+<!-- ? -->
+<!-- ? можно поменять боја и символ в .json зайти в better comments -->
+<!-- ? Тоже самое про BEM Helper когда изучу методологию БЭМ полезная штука этот плагин и менять если что сочитание клавиш можно в настройках -->
+
 
 </html>
 <!-- 31:55 -->
 <!-- 55:10 03.05 -->
 <!-- 1:24:00 -->
-<!-- ctrl + shif + D - Копирование текста -->
+<!-- 1:29:00 -->
+<!-- 1:37:10-->
+<!-- 1:44:20 утро 40 мин. 07.05. -->
+<!-- 1:53:30 утро 08.05 -->
+<!-- 2:03:00 60 мин. 08.05 -->
+<!-- 2:15:00 60 мин. 09.05 -->
+<!-- 2:22:45 утро 10.05. 40 мин. -->
+<!-- 2:32:20 90 мин. 10.05 -->
+<!-- 2:41:30 11.05 утро 40 мин. -->
+<!-- 2:47:00 14.05 утро 60 мин. исправление багов с wrap -->
+<!-- 2:50:50 16.05 утро 40 мин. исправление багов и переход к следующему блоку -->
+<!-- 2:54:40 16.05 днем 60 мин. -->
+<!-- 2:58:00 17.05 утро 40 мин. -->
+<!-- 3:00:00 19.05 днём 30 мин. -->
+<!-- 3:06:00 20.05 утро 60 мин. -->
+<!-- 3:11:00 20.05 40 мин днём Окончание вёрстки 1/2 части -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ! добавить ссылки к кнопкам и прочим интерфейсам где есть href -->
+
+<!-- Настройка VS code - 26:20 -->
+<!-- Настройка vs code 07.05. в 23:50 - закончена -->
+
+<!-- добавить быструю комбинацию для margin: 0px 0px 0px 0px; -->
