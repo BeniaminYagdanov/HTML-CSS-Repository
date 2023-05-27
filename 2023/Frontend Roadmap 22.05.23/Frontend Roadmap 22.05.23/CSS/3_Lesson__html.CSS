@@ -1,0 +1,56 @@
+ p span {
+ 	background-color: yellow;
+ }
+
+ .span {
+ 	background: greenyellow;
+ 	color: black;
+ 	border-radius: 50px;
+ 	padding: 2px;
+ }
+
+ .styles_1 {
+ 	font-size: 18px;
+ }
+
+ .link_style {
+ 	color: #0645ad;
+ 	font-weight: 400;
+ 	font-size: 16px;
+ 	text-decoration: none;
+ }
+
+ .link_style:hover {
+ 	color: #ff8000;
+ 	font-weight: 400;
+ 	text-decoration: underline;
+ 	font-size: 17px;
+ }
+
+ .IT-practice {
+ 	color: #0645ad;
+ 	font-weight: 400;
+ 	font-size: 16px;
+ 	text-decoration: none;
+ }
+
+ .IT-practice:hover {
+ 	color: #ff8000;
+ 	font-weight: 400;
+ 	text-decoration: underline;
+ 	font-size: 16px;
+ }
+
+ .IT-practice__header {
+ 	color: #000000;
+ 	font-weight: 400;
+ 	font-size: 28px;
+ 	text-decoration: none;
+ }
+
+ .IT-practice__header:hover {
+ 	color: #ff8000;
+ 	font-weight: 400;
+ 	text-decoration: underline;
+ 	font-size: 28px;
+ }
