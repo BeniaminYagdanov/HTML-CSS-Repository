@@ -1,0 +1,99 @@
+.Head {
+
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+.Name_tab {
+	display: flex;
+	border: 1px solid #d1d7e8;
+	border-radius: 10px 10px;
+	padding: 13px 30% 10px 10px;
+	margin-left: 29%;
+	margin-bottom: 30px;
+}
+
+.Name_tab:hover {
+	border: 2px solid orange;
+
+
+}
+
+.Email_tab {
+	display: flex;
+	border: 1px solid #d1d7e8;
+	border-radius: 10px 10px;
+	padding: 13px 30% 10px 10px;
+	margin-left: 29%;
+	margin-bottom: 30px;
+}
+
+.Email_tab:hover {
+	border: 2px solid orange;
+}
+
+.Pass_tab {
+	display: flex;
+	border: 1px solid #d1d7e8;
+	border-radius: 10px 10px;
+	padding: 13px 30% 10px 10px;
+	margin-left: 29%;
+	margin-bottom: 30px;
+}
+
+.Pass_tab:hover {
+	border: 2px solid orange;
+}
+
+.about_ME {
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 2%;
+}
+
+.VK {
+	display: flex;
+	margin-left: 37%;
+}
+
+.Youtube {
+	display: flex;
+	margin-left: 47%;
+	position: relative;
+	margin-top: -100px;
+}
+
+.GitHub {
+	display: flex;
+	margin-left: 57%;
+	position: relative;
+	margin-top: -103px;
+}
+
+.Go_1 {
+	color: black;
+	border: 1px solid #d1d7e8;
+	padding: 5px;
+	border-radius: 20px;
+	justify-content: center;
+	margin-left: 70%;
+	margin-right: 13%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.Go_1:hover {
+	border: 1px solid black;
+	text-decoration: underline;
+	text-decoration-color: white;
+	/*? Не знаю как убрать подчёркивание текста */
+}

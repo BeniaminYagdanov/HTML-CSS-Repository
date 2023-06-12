@@ -54,3 +54,10 @@
  	text-decoration: underline;
  	font-size: 28px;
  }
+
+ body {
+ 	background: blue url("/2023/Frontend Roadmap 22.05.23/Frontend Roadmap 22.05.23/IMG/noutbuk_kniga_estetika_214147_3840x2400.jpg") no-repeat center;
+ 	height: 100%;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ }
