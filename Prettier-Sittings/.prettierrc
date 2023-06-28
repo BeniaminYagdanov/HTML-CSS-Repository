@@ -1,0 +1,113 @@
+{
+  "editor.fontSize": 12,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "editor.renderWhitespace": "all",
+
+  "workbench.colorCustomizations": {
+    "editorWarning.foreground": "#FF9933",
+    "editorError.foreground": "#FF0000",
+    "editorInfo.foreground": "#00AA00"
+  },
+
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.codeActionsOnSave": [],
+  "editor.defaultFormatter": null,
+
+  "prettier.enable": true,
+  "eslint.enable": true,
+
+  "eslint.format.enable": true,
+  "eslint.run": "onType",
+  "eslint.probe": ["javascript"],
+  "eslint.rules.customizations": [
+    { "rule": "prettier/prettier", "severity": "info" }
+  ],
+  "[javascript]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  "css.format.enable": true,
+  "css.validate": true,
+  "css.format.newlineBetweenRules": false,
+  "css.format.newlineBetweenSelectors": false,
+  "css.lint.duplicateProperties": "warning",
+  "css.format.spaceAroundSelectorSeparator": true,
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+
+  "json.format.enable": true,
+  "json.validate.enable": true,
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 100,
+  "html.format.unformatted": null,
+  "html.format.contentUnformatted": "pre,code,textarea",
+  "html.format.extraLiners": "",
+  "html.format.preserveNewLines": false,
+  "html.format.maxPreserveNewLines": null,
+  "html.format.indentInnerHtml": false,
+  "html.format.wrapAttributes": "preserve-aligned",
+  "html.format.wrapAttributesIndentSize": null,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.markdown-language-features"
+  },
+
+  "code-eol.newlineCharacter": "↓",
+  "code-eol.crlfCharacter": "←↓",
+  "code-eol.highlightNonDefault": true,
+
+  "liveServer.settings.root": "/build",
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.fullReload": false,
+  "liveServer.settings.port": 5555,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "lf",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.printWidth": 100,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 4,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": false,
+  "prettier.embeddedLanguageFormatting": "auto"
+}

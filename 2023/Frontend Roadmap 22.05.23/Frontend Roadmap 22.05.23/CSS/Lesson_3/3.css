@@ -1,0 +1,157 @@
+/*----------------- Обнуление-------------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*----------------- Обнуление-------------------------- */
+
+/* width: 100%;
+  height: 100;
+  padding: 0px;
+  margin-left: 0px;
+  /* min-width: 400px; */
+/* max-width: 400px; */
+/* max-height: 200px; */
+/* min-height: 200px; */
+/* box-sizing: border-box; */
+/* overflow: visible hidden scroll auto ; */
+/* display: block inline inline-block none; */
+body {
+  margin-left: 30px;
+}
+.v1 {
+  max-width: 611px;
+  max-height: 64px;
+  line-height: 25px;
+  margin: 0px 0px 33px 0px;
+}
+.v2 {
+  max-width: 274px;
+  display: inline-block;
+  line-height: 25px;
+}
+.v3 {
+  display: block;
+  margin-bottom: 32px;
+  line-height: 25px;
+}
+.v4 {
+  max-width: 1145px;
+  max-height: 86px;
+  padding-bottom: 30px;
+  margin-bottom: 34px;
+  line-height: 25px;
+}
+.v5 {
+  min-width: 241px;
+  display: inline-block;
+  line-height: 25px;
+}
+.v6 {
+  display: inline-block;
+  line-height: 25px;
+}
+.v7 {
+  margin: 0px 50px;
+  margin-top: 35px;
+  display: inline-block;
+  line-height: 25px;
+  margin-bottom: 37px;
+}
+.v8 {
+  margin: 0px 50px;
+  display: inline-block;
+  line-height: 25px;
+  margin-bottom: 37px;
+}
+.v9 {
+  width: 343px;
+  display: block;
+  padding: 40px 0px;
+  line-height: 25px;
+}
