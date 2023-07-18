@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Progect</title>
+    <link
+      rel="shortcut icon"
+      href="data:image/jpeg;base64,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"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="Progect.css" />
+    <!-- <div class="content">
+      <div class="content-top">
+        <div class="content-top__category">Travel</div>
+        <h1 class="content-top__title">Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</h1>
+      </div>
+      <div class="content-image">
+        <div class="content-image__item">
+          <img src="IMG/Progect/MEN.jpg" alt="Картинка" />
+        </div>
+      </div>
+      <div class="content-bottom">
+        <div class="content-bottom__text">
+          <p>
+            Donec aredsed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor
+            fringilla.
+          </p>
+          <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+        </div>
+        <div class="content-bottom-info">
+          <ul class="content-bottom-info-list">
+            <li>Put on this page information about your product</li>
+            <li>A detailed description of your product</li>
+            <li>Tell us about the advantages and merits</li>
+            <li>Associate the page with the payment system</li>
+          </ul>
+          <a href="https://www.google.com/" target="_blank" class="content-bottom-info-link">
+            <span>Full Story</span>
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="content-body">
+      <div class="content-top">
+        <div class="content__tittle">Travel</div>
+        <div class="content__text">
+          Donec sed odio dui. Cras mattis consectetur purus <br />
+          sit amet fermentum.
+        </div>
+      </div>
+      <div class="content__image">
+        <img src="IMG/Progect/MEN.jpg" alt="jpg" />
+      </div>
+      <div class="content-bottom">
+        <div class="content-bottom__text">
+          <p>
+            Donec aredsed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor
+            fringilla.
+          </p>
+
+          <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+        </div>
+        <div class="content-bottom-info">
+          <ul class="content-bottom-list">
+            <li>Put on this page information about your product</li>
+            <li>A detailed description of your product</li>
+            <li>Tell us about the advantages and merits</li>
+            <li><span>Associate the page with the payment system</span></li>
+          </ul>
+          <a href="#" target="_blank" class="content-bottom-button">
+            <span>Full Story</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="header">
+      <div class="header-top">
+        <div class="header-top__title _title"></div>
+        <div class="header-top__sub-title"></div>
+      </div>
+      <div class="header-img">
+        <div class="header-img__photo"><img src="3" alt="" /></div>
+      </div>
+      <div class="header-bottom">
+        <div class="header-bottom__content"></div>
+        <div class="header-bottom-list">
+          <ul class="header-bottom-list__item">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <a href="#" class="header-bottom-list__link"></a>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <a href="" class="menu__item menu__item_active">HOME</a> -->
+    <!-- <div class="about__body">
+      <div class="about__header">
+        <div class="about__tittle tittle">ABOUT</div>
+        <div class="about__text">
+          We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. In our design process, we make sure to stay one step ahead of the latest
+          trends, never forgetting to abide by key web standards.
+        </div>
+      </div>
+      <div class="about__row">
+        <div class="about__column">
+          <div class="item-about">
+            <a href="IMG/about/1.png" target="_blank" class="item-about__photo">
+              <img src="IMG/about/1.png" alt="text" />
+            </a>
+            <div class="item-about__tittle">WEB</div>
+            <div class="item-about__text">We tend to deliver unique and functional design, through innovation and creativity.</div>
+          </div>
+        </div>
+        <div class="about__column">
+          <div class="item-about">
+            <a href="IMG/about/2.png" target="_blank" class="item-about__photo">
+              <img src="IMG/about/2.png" alt="text" />
+            </a>
+            <div class="item-about__tittle">iOS AND ANDROID</div>
+            <div class="item-about__text">We seek to bring new businesses and customers closer together through valuable insights and proper targeting.</div>
+          </div>
+        </div>
+        <div class="about__column">
+          <div class="item-about">
+            <a href="IMG/about/3.png" target="_blank" class="item-about__photo">
+              <img src="IMG/about/3.png" alt="text" />
+            </a>
+            <div class="item-about__tittle">MARKETING</div>
+            <div class="item-about__text">We’ll help you establish the right goals and build the right paths. Success depends on setting the right intention.</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="about__body">
+      <div class="about__header">
+        <div class="about__tittle tittle">ABOUT</div>
+        <div class="about__text">
+          We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. In our design process, we make sure to stay one step ahead of the latest
+          trends, never forgetting to abide by key web standards.
+        </div>
+      </div>
+      <div class="about__row">
+        <div class="about__column">
+          <div class="item-about">
+            <a class="about__icon">
+              <img src="IMG/about/1.png" alt="png" />
+            </a>
+            <div class="about__tittle">WEB</div>
+            <div class="about__text">We tend to deliver unique and functional design, through innovation and creativity.</div>
+          </div>
+        </div>
+        <div class="about__column">
+          <div class="item-about">
+            <a class="about__icon">
+              <img src="IMG/about/2.png" alt="png" />
+            </a>
+            <div class="about__tittle">iOS AND ANDROID</div>
+            <div class="about__text">We seek to bring new businesses and customers closer together through valuable insights and proper targeting.</div>
+          </div>
+        </div>
+        <div class="about__column">
+          <div class="item-about">
+            <a class="about__icon">
+              <img src="IMG/about/3.png" alt="png" />
+            </a>
+            <div class="about__tittle">MARKETING</div>
+            <div class="about__text">We’ll help you establish the right goals and build the right paths. Success depends on setting the right intention.</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- 2 Грубейшие ошибки:
+	 1 - вместо a у меня div
+	 2 - Ужасная ошибка ещё с самого первого макета и проблема во вложенности у меня column2 по счёту не был закрыт во 2 столбце, а был закрыт в самом конце из-за этого 3 столбец вывелся на новую строку. Теперь ты узнал что тогда произошло -->
+    <!-- <div class="about__body">
+      <div class="about__header">
+        <div class="about__tittle tittle">ABOUT</div>
+        <div class="about__text">
+          We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. In our design process, we make sure to stay one step ahead of the latest
+          trends, never forgetting to abide by key web standards.
+        </div>
+      </div>
+      <div class="about__row">
+        <div class="about__column">
+          <div class="item__about">
+            <a class="about__image">
+              <img src="IMG/about/1.png" alt="PNG" />
+            </a>
+            <div class="about__tittle">WEB</div>
+            <div class="about__text">We tend to deliver unique and functional design, through innovation and creativity.</div>
+          </div>
+        </div>
+        <div class="about__column">
+          <div class="item__about">
+            <a class="about__image">
+              <img src="IMG/about/2.png" alt="PNG" />
+            </a>
+            <div class="about__tittle">iOS AND ANDROID</div>
+            <div class="about__text">We seek to bring new businesses and customers closer together through valuable insights and proper targeting.</div>
+          </div>
+        </div>
+        <div class="about__column">
+          <div class="item__about">
+            <a class="about__image">
+              <img src="IMG/about/3.png" alt="PNG" />
+            </a>
+            <div class="about__tittle">MARKETING</div>
+            <div class="about__text">We’ll help you establish the right goals and build the right paths. Success depends on setting the right intention.</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="header__body">
+      <div class="header__head">
+        <div class="header__tittle">
+          <a href="#" class="header__img">
+            <img src="#" alt="box" />
+          </a>
+          <div class="header__text"></div>
+        </div>
+      </div>
+      <div class="header-center">
+        <div class="header-center__tittle tittle-header"></div>
+      </div>
+      <div class="header__footer">
+        <a href="#" target="_blank" class="header-button">
+          <span></span>
+        </a>
+      </div>
+      <div class="header__noname"></div>
+      <div class="footer-menu">
+        <a href="#" class="footer-menu__list_active"></a>
+        <a href="#" class="footer-menu__list"></a>
+        <a href="#" class="footer-menu__list"></a>
+        <a href="#" class="footer-menu__list"></a>
+      </div>
+    </div>
+    <div class="about__body">
+      <div class="about__head">
+        <div class="about__tittle tittle-about">
+          <div class="about__text"></div>
+        </div>
+      </div>
+      <div class="about__row">
+        <div class="about__column">
+          <div class="item-about">
+            <a href="#" class="about__icon"></a>
+            <div class="about__tittle"></div>
+            <div class="about__text"></div>
+          </div>
+        </div>
+        <div class="about__column">
+          <div class="item-about">
+            <a href="#" class="about__icon"></a>
+            <div class="about__tittle"></div>
+            <div class="about__text"></div>
+          </div>
+        </div>
+        <div class="about__column">
+          <div class="item-about">
+            <a href="#" class="about__icon"></a>
+            <div class="about__tittle"></div>
+            <div class="about__text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio__body">
+      <div class="portfolio__head">
+        <div class="portfolio__tittle tittle"></div>
+        <div class="portfolio__menu">
+          <a href="#" class="portfolio-menu__item_active"></a>
+          <a href="#" class="portfolio-menu__item"></a>
+          <a href="#" class="portfolio-menu__item"></a>
+          <a href="#" class="portfolio-menu__item"></a>
+        </div>
+      </div>
+      <div class="portfolio-center">
+        <a href="#" class="portfolio__video1 video"></a>
+        <a href="#" class="portfolio__video2"></a>
+        <a href="#" class="portfolio__video3"></a>
+        <a href="#" class="portfolio__video4"></a>
+        <a href="#" class="portfolio__video5"></a>
+        <a href="#" class="portfolio__video6"></a>
+      </div>
+      <div class="portfolio__fotter">
+        <a href="#" target="_blank" class="portfolio__buttton"></a>
+        <span></span>
+      </div>
+    </div>
+    <div class="footer__body">
+      <div class="footer__partners">
+        <div class="footer__tittle"></div>
+        <div class="footer__row">
+          <div class="footer__column">
+            <div class="footer-item">
+              <a href="#" class="footer__href">
+                <img src="#" alt="partners" />
+              </a>
+              <a href="#" class="footer__href">
+                <img src="#" alt="partners" />
+              </a>
+              <a href="#" class="footer__href">
+                <img src="#" alt="partners" />
+              </a>
+              <a href="#" class="footer__href">
+                <img src="#" alt="partners" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__contact">
+        <div class="footer__tittle tittle-contact"></div>
+      </div>
+      <div class="footer-contacts contacts">
+        <div class="footer-contacts__name"></div>
+        <div class="footer-contacts__email"></div>
+        <div class="footer-contacts__message"></div>
+        <div class="footer-contacts__text"></div>
+        <div class="footer-contacts__aftor"></div>
+        <a href="#" class="footer-contacts__facebook">
+          <img src="#" alt="facebook" />
+        </a>
+        <a href="#" class="footer-contacts__instagram">
+          <img src="#" alt="instagram" />
+        </a>
+        <a href="#" class="footer-contacts__email_aftor"></a>
+      </div>
+    </div>
+    <div class="footer-info__body">
+      <div class="footer-info__top">
+        <form action="#">
+          <input type="reset" class="footer-info__button-reset" />
+        </form>
+      </div>
+    </div>
+    <div class="footer-info-end__body">
+      <div class="footer-info-end__tittle tittle-info-end">
+        <img src="#" alt="box" />
+      </div>
+      <div class="footer-info-end__menu">
+        <a href="#" class="footer-info-end__menu-item"></a>
+        <a href="#" class="footer-info-end__menu-item"></a>
+        <a href="#" class="footer-info-end__menu-item"></a>
+        <a href="#" class="footer-info-end__menu-item"></a>
+      </div>
+      <div class="footer-info-end-text">© 2015. All Rights Reserved</div>
+    </div> -->
+  </body>
+</html>
