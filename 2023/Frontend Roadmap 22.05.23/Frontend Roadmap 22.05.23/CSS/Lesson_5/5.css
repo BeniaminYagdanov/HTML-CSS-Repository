@@ -1,0 +1,67 @@
+body {
+  background: url(IMG/Win_11.webp) 50% / cover fixed no-repeat;
+}
+.bodyphoto1 {
+  background: rgba(109, 213, 250, 1) url(IMG/1.jpg) center / cover fixed no-repeat;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px 0px black;
+}
+.bodyphoto2 {
+  background: url(IMG/2.jpg) center/cover fixed no-repeat;
+  margin-top: 5%;
+  height: 300px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px black;
+}
+.bodyphoto3 {
+  background: url(IMG/3.jpg) center / cover fixed no-repeat;
+  margin-top: 5%;
+  height: 300px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px black;
+}
+.bodyphoto4 {
+  background: url(IMG/4.jpg) center / cover fixed no-repeat;
+  margin-top: 5%;
+  height: 300px;
+  border-radius: 60px;
+  box-shadow: 0px 0px 10px black;
+}
+.bodyphoto5 {
+  background: url(IMG/5.jpg) center / cover fixed no-repeat;
+  margin-top: 5%;
+  height: 300px;
+  border-radius: 70px;
+  box-shadow: 0px 0px 10px black;
+}
+.bodyphoto6 {
+  background: url(IMG/6.jpg) center / cover fixed no-repeat;
+  margin-top: 5%;
+  height: 300px;
+  border-radius: 80px;
+  box-shadow: 0px 0px 10px black;
+}
+.bodyphoto7 {
+  background: url(IMG/7.jpg) left / 50% fixed no-repeat, url(IMG/8.jpg) center / cover fixed no-repeat;
+  margin-top: 5%;
+  height: 1000px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px black;
+}
+.bodyphoto8 {
+  /* background-color: firebrick; */
+  /* background-image: url(); */
+  /* background-repeat: no-repeat; */
+  /* background: fixed ; */
+  /* background-size: cover ; */
+}
+.spacemeta {
+  margin: 0px 0px 30px 0px;
+}
+.spacemeta li {
+  font-size: 24px;
+  margin: 0px 0px 15px 0px;
+  background: url(IMG/check.png) left;
+  padding: 0px 0px 0px 30px;
+}

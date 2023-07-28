@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url("#") no-repeat center;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+html,
+body {
+  height: 100%;
+  background: linear-gradient(45deg, #40e0d0, #ff8c00, #ff0080, #ef32d9, #89fffd, #ff4b1f, #1fddff, #00bf8f, #001510);
+  background-size: 1000% 100%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+
+  100% {
+    background-position: 25% 75%;
+  }
+}
+
+.h1 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+
+  /* background: linear-gradient(45deg, #2980b9, #6dd5fa, #ffffff);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  } */
+}
+
+.content {
+  white-space: nowrap;
+  text-indent: 50px;
+}
+.h2 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.bold {
+  font-weight: 700;
+  text-indent: 50px;
+}
+.red2 {
+  color: red;
+  font-weight: 700;
+  text-indent: 50px;
+}
+.homework {
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.right {
+  text-align: right;
+  text-indent: 50px;
+}
+.uper {
+  text-decoration: underline;
+  text-indent: 50px;
+}
+.cursive {
+  font-style: italic;
+  text-indent: 50px;
+}
+.lovercase {
+  text-transform: lowercase;
+  text-indent: 50px;
+}
+.center {
+  text-align: center;
+  text-indent: 50px;
+}
+.bigtext {
+  text-transform: uppercase;
+  text-indent: 50px;
+}
+.linethough {
+  text-decoration: line-through;
+  text-indent: 50px;
+}
+.times {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-indent: 50px;
+}
+.shadow {
+  text-shadow: 2px 1px 2px black;
+}
+
+/* .arial {
+}
+.fontsize {
+}
+.fontstyle {
+}
+.fontwight {
+}
+.red {
+}
+.textalign {
+}
+.textdecoration {
+}
+.textshadow {
+}
+.texttransform {
+}
+.textident {
+}
+.letterspacing {
+}
+.wordspacing {
+}
+.whitespace {
+}
+.lineheight {
+} */
+
+.h1 {
+  margin-top: 500px;
+  font-size: 30px;
+  text-decoration: overline;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: normal;
+}
+.color {
+  color: aquamarine;
+}
+.fz {
+  font-size: 50px;
+}
+.fw {
+  font-weight: 700;
+}
+.fs {
+  font-style: oblique;
+}
+.ta {
+  text-align: justify;
+}
+.ti {
+  text-indent: 100px;
+}
+.ts {
+  text-shadow: 2px 2px 1px green;
+}
+.ws {
+  word-spacing: 10px;
+}
+.whs {
+  white-space: nowrap;
+}
+.ls {
+  letter-spacing: 10px;
+}
+.lh {
+  line-height: 50px;
+}
